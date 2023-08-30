@@ -11,3 +11,11 @@ Meu nome é Enzo Gabriel e sou um desenvolvedor web de 19 anos e crio interfaces
 - [VueJS](https://vuejs.org/): Um framework JavaScript progressivo para construção de interfaces de usuário.
 - [HTML5](https://developer.mozilla.org/en-US/docs/Web/HTML): Linguagem de marcação para estruturar o conteúdo da web.
 - [CSS3](https://developer.mozilla.org/en-US/docs/Web/CSS): Linguagem de estilização para tornar o currículo visualmente atraente.
+
+
+
+## Deploy do Curriculo
+
+Esse link irá levar ao meu currículo online:
+
+ https://curriculo-enzo.netlify.app/
