@@ -6,23 +6,21 @@
       </div>
     </div>
     <div class="onda-cima">
-      <!-- Coloque sua imagem aqui -->
       <img src="../imagens/onda-cima.jpeg" alt="Sua imagem">
     </div>
     <div class="onda-baixo">
-      <!-- Coloque sua imagem aqui -->
       <img src="../imagens/onda-atualizada.jpeg" alt="Sua imagem">
     </div>
     <div class="nome-enzo">ENZO GABRIEL</div>
     <div class="desenvolvedor">DESENVOLVEDOR</div>
-    <div class="linha-preta-abaixo-desenvolvedor"></div> <!-- Adicione esta linha -->
+    <div class="linha-preta-abaixo-desenvolvedor"></div> 
     <div class="telefone">
       <svg xmlns="http://www.w3.org/2000/svg" width="12" height="14" fill="currentColor"
         class="bi bi-telephone-fill telefone-icon" viewBox="0 0 16 16">
         <path fill-rule="evenodd"
           d="M1.885.511a1.745 1.745 0 0 1 2.61.163L6.29 2.98c.329.423.445.974.315 1.494l-.547 2.19a.678.678 0 0 0 .178.643l2.457 2.457a.678.678 0 0 0 .644.178l2.189-.547a1.745 1.745 0 0 1 1.494.315l2.306 1.794c.829.645.905 1.87.163 2.611l-1.034 1.034c-.74.74-1.846 1.065-2.877.702a18.634 18.634 0 0 1-7.01-4.42 18.634 18.634 0 0 1-4.42-7.009c-.362-1.03-.037-2.137.703-2.877L1.885.511z" />
       </svg>
-      <span class="numero-celular">(67) 99652-1256</span> <!-- Número fictício, substitua pelo número desejado -->
+      <span class="numero-celular">(67) 99652-1256</span> 
     </div>
     <div class="linkedin">
       <a href="https://www.linkedin.com/in/oenzogabriel0812/" target="_blank">
@@ -40,7 +38,7 @@
         <path
           d="M.05 3.555A2 2 0 0 1 2 2h12a2 2 0 0 1 1.95 1.555L8 8.414.05 3.555ZM0 4.697v7.104l5.803-3.558L0 4.697ZM6.761 8.83l-6.57 4.027A2 2 0 0 0 2 14h12a2 2 0 0 0 1.808-1.144l-6.57-4.027L8 9.586l-1.239-.757Zm3.436-.586L16 11.801V4.697l-5.803 3.546Z" />
       </svg>
-      <span class="endereco-email">enzo.gbf@outlook.com</span> <!-- Endereço fictício, substitua pelo e-mail desejado -->
+      <span class="endereco-email">enzo.gbf@outlook.com</span>
     </div>
 
     <div class="github">
@@ -138,8 +136,6 @@
         <li>Desenvolvimento de Aplicações para Dispositivos Móveis.</li>
       </ul>
 
-
-    <!-- Novo retângulo cinza na vertical -->
     <div class="retangulo-cinza">
       <p class="titulo-habilidades">HABILIDADES</p>
       <div class="linha-preta"></div>
@@ -163,24 +159,15 @@
   </div>
 </template>
 
-<script>
-    // Seu código JavaScript pode estar aqui, se necessário
-</script>
-
 <style>
-/* Defina a cor de fundo para toda a página */
 html {
-  background-color: rgb(0, 0, 0);
-  /* Cinza */
+  background-color: rgb(61, 61, 61);
 }
-
-
 
 .github {
   position: absolute;
   top: 253px;
   left: 560px;
-  /* Posicione o GitHub à direita do LinkedIn com um espaço adicional de 50px */
   font-family: "Glacial Indifference", sans-serif;
   font-size: 10px;
 }
@@ -194,103 +181,70 @@ html {
   vertical-align: middle;
   margin-right: 3px;
   color: #333;
-  /* Cor do ícone do GitHub */
 }
 
 .linkedin {
   position: absolute;
-  /* Posicionamento absoluto */
   top: 220px;
-  /* Mesma altura que o telefone */
   left: 560px;
-  /* Coloca o LinkedIn à direita do telefone com um espaço de 40px */
   font-family: "Glacial Indifference", sans-serif;
-  /* Adicione a fonte Glacial Indifference */
   font-size: 11px;
-  /* Tamanho do texto do link */
 }
 
 .linkedin a {
   text-decoration: none;
-  /* Remove o sublinhado padrão do link */
   color: inherit;
-  /* Herda a cor do texto do elemento pai */
 }
 
 .linkedin svg {
   vertical-align: middle;
-  /* Alinha verticalmente o ícone com o texto */
   margin-right: 5px;
-  /* Espaço entre o ícone e o texto */
   color: #0077b5;
-  /* Cor do ícone e do link */
 }
 
 .descricao-perfil-profissional {
   font-size: 60%;
   margin-top: 340px;
-  /* Ajuste esse valor conforme necessário */
   color: #2D5473;
   text-align: left;
   position: absolute;
-  /* Adicione essa propriedade */
   left: 409px;
-  /* Ajuste essa propriedade conforme necessário */
   width: 60%;
-  /* Ajuste essa propriedade conforme necessário */
 }
 
 .email {
   position: absolute;
-  /* Posicionamento absoluto */
   top: 250px;
-  /* Ajuste a posição vertical conforme necessário */
   left: 59%;
-  /* Centralize horizontalmente */
   transform: translateX(-50%);
-  /* Centralize horizontalmente */
   color: #2D5473;
-  /* Cor do ícone e endereço de e-mail */
   font-family: "Glacial Indifference", sans-serif;
-  /* Adicione a fonte Glacial Indifference */
   font-size: 10px;
-  /* Tamanho do texto do endereço de e-mail */
 }
 
 .endereco-email {
   margin-left: 5px;
-  /* Espaço entre o ícone e o endereço de e-mail */
 }
 
 .telefone {
   position: absolute;
-  /* Posicionamento absoluto */
   top: 220px;
-  /* Ajuste a posição vertical conforme necessário */
   left: 57%;
-  /* Centralize horizontalmente */
   transform: translateX(-50%);
-  /* Centralize horizontalmente */
   color: #2D5473;
-  /* Cor do ícone e número */
   font-family: "Glacial Indifference", sans-serif;
-  /* Adicione a fonte Glacial Indifference */
   font-size: 10px;
-  /* Tamanho do texto do número */
 }
 
 .numero-celular {
   margin-left: 5px;
-  /* Espaço entre o ícone e o número */
 }
 
 .linha-preta-abaixo-desenvolvedor {
   background-color: black;
   height: 1px;
   width: 14%;
-  /* Ajuste a largura da linha conforme necessário */
   position: absolute;
-  /* Posicionamento absoluto */
   margin-left: 410px;
   margin-top: 210px;
 }
@@ -298,317 +252,196 @@ html {
 .descricao-trabalho {
   font-size: 60%;
   margin-top: 620px;
-  /* Ajuste esse valor conforme necessário */
   color: #2D5473;
   text-align: left;
   position: absolute;
-  /* Adicione essa propriedade */
   left: 409px;
-  /* Ajuste essa propriedade conforme necessário */
   width: 60%;
-  /* Ajuste essa propriedade conforme necessário */
 }
 
 .linha-preta-perfil-profissional {
   background-color: black;
   height: 1px;
   width: 14%;
-  /* Ajuste a largura da linha conforme necessário */
   position: absolute;
-  /* Posicionamento absoluto */
   margin-left: 410px;
   margin-top: 335px;
 }
 
 .nome-enzo {
   font-size: 30px;
-  /* Tamanho da fonte */
   font-weight: bold;
-  /* Negrito */
   text-align: right;
-  /* Alinhar à direita */
   position: absolute;
-  /* Posicionamento absoluto */
   top: 12%;
-  /* Ajuste a posição vertical para mais para cima */
   right: 21%;
-  /* Ajuste a posição horizontal para a direita */
   color: #2D5473;
-  /* Cor do texto */
   font-family: "Glacial Indifference", sans-serif;
-  /* Adicione a fonte Glacial Indifference */
 }
 
 .perfil-profissional {
   font-size: 20px;
-  /* Tamanho da fonte */
   margin-top: 40px;
   font-weight: bold;
-  /* Negrito */
   text-align: right;
-  /* Alinhar à direita */
   position: absolute;
-  /* Posicionamento absoluto */
   top: 24%;
-  /* Ajuste a posição vertical para mais para cima */
   right: 164px;
-  /* Ajuste a posição horizontal para a direita */
   color: #5BA7D1;
-  /* Cor do texto */
   font-family: "Glacial Indifference", sans-serif;
-  /* Adicione a fonte Glacial Indifference */
 }
 
 .experiencia {
   font-size: 20px;
-  /* Tamanho da fonte */
   margin-top: 80px;
   font-weight: bold;
-  /* Negrito */
   text-align: right;
-  /* Alinhar à direita */
   position: absolute;
-  /* Posicionamento absoluto */
   top: 41%;
-  /* Ajuste a posição vertical para mais para cima */
   right: 257px;
-  /* Ajuste a posição horizontal para a direita */
   color: #5BA7D1;
-  /* Cor do texto */
   font-family: "Glacial Indifference", sans-serif;
-  /* Adicione a fonte Glacial Indifference */
 }
 
 .formacao-academica {
   font-size: 20px;
-  /* Tamanho da fonte */
   margin-top: 100px;
   font-weight: bold;
-  /* Negrito */
   text-align: right;
-  /* Alinhar à direita */
   position: absolute;
-  /* Posicionamento absoluto */
   top: 60%;
-  /* Ajuste a posição vertical para mais para cima */
   right: 150px;
-  /* Ajuste a posição horizontal para a direita */
   color: #5BA7D1;
-  /* Cor do texto */
   font-family: "Glacial Indifference", sans-serif;
-  /* Adicione a fonte Glacial Indifference */
 }
 
 .linha-preta-formacao-academica {
   background-color: black;
   height: 1px;
   width: 14%;
-  /* Ajuste a largura da linha conforme necessário */
   position: absolute;
-  /* Posicionamento absoluto */
   margin-left: 405px;
   margin-top: 795px;
 }
 
 .lugar-trabalho {
   font-size: 13px;
-  /* Tamanho da fonte */
   margin-top: 120px;
   font-weight: bold;
-  /* Negrito */
   text-align: right;
-  /* Alinhar à direita */
   position: absolute;
-  /* Posicionamento absoluto */
   top: 41%;
-  /* Ajuste a posição vertical para mais para cima */
   right: 199px;
-  /* Ajuste a posição horizontal para a direita */
   color: #2D5473;
-  /* Cor do texto */
   font-family: "Glacial Indifference", sans-serif;
-  /* Adicione a fonte Glacial Indifference */
 }
 
 .lugar-formacao-academica {
   font-size: 10px;
-  /* Tamanho da fonte */
   margin-top: 400px;
-
-  /* Negrito */
   text-align: right;
-  /* Alinhar à direita */
   position: absolute;
-  /* Posicionamento absoluto */
   top: 41%;
-  /* Ajuste a posição vertical para mais para cima */
   right: 235px;
-  /* Ajuste a posição horizontal para a direita */
   color: #2D5473;
-  /* Cor do texto */
   font-family: "Glacial Indifference", sans-serif;
-  /* Adicione a fonte Glacial Indifference */
 }
 
 .tempo-trabalho {
   font-size: 10px;
-  /* Tamanho da fonte */
   margin-top: 145px;
   font-weight: bold;
-  /* Negrito */
   text-align: right;
-  /* Alinhar à direita */
   position: absolute;
-  /* Posicionamento absoluto */
   top: 41%;
-  /* Ajuste a posição vertical para mais para cima */
   right: 193px;
-  /* Ajuste a posição horizontal para a direita */
   color: #2D5473;
-  /* Cor do texto */
   font-family: "Glacial Indifference", sans-serif;
-  /* Adicione a fonte Glacial Indifference */
 }
 .tempo-formacao-academica {
   font-size: 10px;
-  /* Tamanho da fonte */
   margin-top: 145px;
   font-weight: bold;
-  /* Negrito */
   text-align: right;
-  /* Alinhar à direita */
   position: absolute;
-  /* Posicionamento absoluto */
   top: 41%;
-  /* Ajuste a posição vertical para mais para cima */
   right: 193px;
-  /* Ajuste a posição horizontal para a direita */
   color: #2D5473;
-  /* Cor do texto */
   font-family: "Glacial Indifference", sans-serif;
-  /* Adicione a fonte Glacial Indifference */
 }
 
 .tempo-formacao-academica {
   font-size: 12px;
-  /* Tamanho da fonte */
   margin-top: 359px;
   font-weight: bold;
-  /* Negrito */
   text-align: left;
-  /* Alinhar à direita */
   position: absolute;
-  /* Posicionamento absoluto */
   top: 41%;
-  /* Ajuste a posição vertical para mais para cima */
   right: 135px;
-  /* Ajuste a posição horizontal para a direita */
   color: #2D5473;
-  /* Cor do texto */
   font-family: "Glacial Indifference", sans-serif;
-  /* Adicione a fonte Glacial Indifference */
 }
 
 .linha-preta-experiencia {
   background-color: black;
   height: 1px;
   width: 14%;
-  /* Ajuste a largura da linha conforme necessário */
   position: absolute;
-  /* Posicionamento absoluto */
   margin-left: 410px;
   margin-top: 560px;
 }
 
 .desenvolvedor {
   font-size: 20px;
-  /* Tamanho da fonte */
   margin-top: 40px;
   font-weight: bold;
-  /* Negrito */
   text-align: right;
-  /* Alinhar à direita */
   position: absolute;
-  /* Posicionamento absoluto */
   top: 12%;
-  /* Ajuste a posição vertical para mais para cima */
   right: 214px;
-  /* Ajuste a posição horizontal para a direita */
   color: #5BA7D1;
-  /* Cor do texto */
   font-family: "Glacial Indifference", sans-serif;
-  /* Adicione a fonte Glacial Indifference */
 }
 
 .retangulo-vertical {
   width: 800px;
-  /* Largura do retângulo */
   height: 1100px;
-  /* Altura do retângulo (vertical) */
   background-color: rgb(255, 255, 255);
-  /* Cor de fundo branca do retângulo */
   margin-left: auto;
   margin-right: auto;
   position: relative;
-  /* Adicione isso para posicionamento relativo */
 }
 
 .semestre{
   font-size: 9px;
-  /* Tamanho da fonte */
   margin-top: 420px;
-
-  /* Negrito */
   text-align: right;
-  /* Alinhar à direita */
   position: absolute;
-  /* Posicionamento absoluto */
   top: 41%;
-  /* Ajuste a posição vertical para mais para cima */
   right: 239px;
-  /* Ajuste a posição horizontal para a direita */
   color: #2D5473;
-  /* Cor do texto */
   font-family: "Glacial Indifference", sans-serif;
-  /* Adicione a fonte Glacial Indifference */
 }
 .materias-semestre{
   font-size: 9px;
-  /* Tamanho da fonte */
   margin-top: 440px;
-
-  /* Negrito */
   text-align: left;
-  /* Alinhar à direita */
   position: absolute;
-  /* Posicionamento absoluto */
   top: 41%;
-  /* Ajuste a posição vertical para mais para cima */
   right: 155px;
-  /* Ajuste a posição horizontal para a direita */
   color: #2D5473;
-  /* Cor do texto */
   font-family: "Glacial Indifference", sans-serif;
-  /* Adicione a fonte Glacial Indifference */
 }
 
 .circulo {
   width: 250px;
-  /* Largura do círculo (aumentada) */
   height: 250px;
-  /* Altura do círculo (aumentada) */
   background-color: rgb(255, 255, 255);
-  /* Cor de fundo branca do círculo */
   border-radius: 50%;
-  /* Transforma o elemento em um círculo */
   position: absolute;
-  /* Posicionamento absoluto para o círculo */
   top: 10%;
-  /* Ajuste a posição vertical para mais para cima */
   left: 10%;
-  /* Ajuste a posição horizontal */
   overflow: hidden;
-  /* Garante que a imagem não saia do círculo */
 }
 
 .linha-preta {
@@ -640,17 +473,12 @@ html {
   left: 0;
   right: 0;
   height: 100px;
-  /* Altura da área da onda */
-  /* background-color: #2D5473; */
-  /* Cor da área da onda (opcional) */
 }
 
 .onda-cima img,
 .onda-baixo img {
   width: 100%;
-  /* Largura da imagem ocupando toda a largura do retângulo */
   height: 100%;
-  /* A imagem preencherá a altura da área da onda */
 }
 
 .onda-cima {
@@ -661,83 +489,55 @@ html {
   bottom: 0;
 }
 
-/* Estilização do novo retângulo cinza na vertical */
 .retangulo-cinza {
   width: 290px;
-  /* Largura do retângulo cinza */
   height: 40%;
-  /* Altura reduzida para o meio do retângulo-vertical */
   background-color: rgb(219, 215, 215);
-  /* Cor de fundo cinza */
   position: absolute;
-  /* Posicionamento absoluto para o retângulo cinza */
   top: 38%;
-  /* Ajuste a posição vertical para o meio do retângulo-vertical */
   left: 0;
-  /* Ajuste a posição horizontal (no canto esquerdo) */
   border-top-left-radius: 0;
-  /* Desativa o arredondamento na borda superior esquerda */
   border-bottom-left-radius: 0;
-  /* Desativa o arredondamento na borda inferior esquerda */
   border-top-right-radius: 10px;
-  /* Define o arredondamento na borda superior direita */
   border-bottom-right-radius: 10px;
-  /* Define o arredondamento na borda inferior direita */
   display: flex;
-  /* Torna o conteúdo interno flexível */
   flex-direction: column;
-  /* Coloca o texto e a linha em uma coluna vertical */
   justify-content: center;
-  /* Centraliza verticalmente o conteúdo interno */
   padding: 20px;
-  /* Espaçamento interno para o conteúdo */
 }
 
-/* Estilização do texto "HABILIDADES" */
 .titulo-habilidades {
   font-family: "Source Sans Pro Bold", sans-serif;
-  /* Fonte em negrito */
   color: #5BA7D1;
-  /* Cor #5BA7D1 */
 }
 
-/* Estilização das habilidades */
 .habilidades {
   font-size: 11px;
   margin-left: -90px;
-  /* Remova o margin-left para alinhar o texto à esquerda */
+  font-weight: bold;
+
   line-height: 1.5;
-  /* Espaçamento entre as habilidades */
 }
 
 .titulo-habilidades {
   margin-left: -165px;
-  /* Remova o margin-left para alinhar o texto à esquerda */
+  font-weight: bold;
 }
 
 .titulo-habilidades-idiomas {
   margin-left: -210px;
-  /* Remova o margin-left para alinhar o texto à esquerda */
   color: #5BA7D1;
-  /* Cor do marcador */
+  font-weight: bold;
 }
-
-/* Estilização dos marcadores (pontos) */
 .habilidades li::before {
   margin-right: 10px;
-  /* Espaço entre o marcador e o texto */
   color: #5BA7D1;
-  /* Cor do marcador */
   display: inline-block;
-  /* Garante que o marcador esteja alinhado corretamente */
   width: 1em;
-  /* Define a largura do marcador para que todas as habilidades comecem no mesmo ponto */
 }
 
-/* Alinhe o texto à esquerda */
 .habilidades li {
   text-align: left;
   margin-left: 70px;
-  /* Remova o margin-left para alinhar o texto à esquerda */
 }
 </style>
